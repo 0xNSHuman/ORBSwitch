@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF9000A11DEC32190058B547 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9000A01DEC32190058B547 /* main.m */; };
+		FF9000A41DEC32190058B547 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9000A31DEC32190058B547 /* AppDelegate.m */; };
+		FF9000A71DEC32190058B547 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9000A61DEC32190058B547 /* ViewController.m */; };
+		FF9000AA1DEC32190058B547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9000A81DEC32190058B547 /* Main.storyboard */; };
+		FF9000AC1DEC32190058B547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9000AB1DEC32190058B547 /* Assets.xcassets */; };
+		FF9000AF1DEC32190058B547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9000AD1DEC32190058B547 /* LaunchScreen.storyboard */; };
+		FF9000BA1DEC32190058B547 /* ORBSwitchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9000B91DEC32190058B547 /* ORBSwitchDemoUITests.m */; };
+		FF9000C71DEC328A0058B547 /* ORBSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9000C61DEC328A0058B547 /* ORBSwitch.m */; };
+		FFFA1D791DEC779D00CB4A2B /* mario_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFA1D741DEC779D00CB4A2B /* mario_bg.png */; };
+		FFFA1D7A1DEC779D00CB4A2B /* mario_l.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFA1D751DEC779D00CB4A2B /* mario_l.png */; };
+		FFFA1D7B1DEC779D00CB4A2B /* mario_r.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFA1D761DEC779D00CB4A2B /* mario_r.png */; };
+		FFFA1D7C1DEC779D00CB4A2B /* sw_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFFA1D771DEC779D00CB4A2B /* sw_bg.jpg */; };
+		FFFA1D7D1DEC779D00CB4A2B /* sw_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFA1D781DEC779D00CB4A2B /* sw_knob.png */; };
+		FFFA1D7F1DEC786400CB4A2B /* sw_bg_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFFA1D7E1DEC786400CB4A2B /* sw_bg_on.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF9000B61DEC32190058B547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9000941DEC32180058B547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF90009B1DEC32180058B547;
+			remoteInfo = ORBSwitchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF90009C1DEC32180058B547 /* ORBSwitchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORBSwitchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9000A01DEC32190058B547 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF9000A21DEC32190058B547 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF9000A31DEC32190058B547 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF9000A51DEC32190058B547 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF9000A61DEC32190058B547 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF9000A91DEC32190058B547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF9000AB1DEC32190058B547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF9000AE1DEC32190058B547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF9000B01DEC32190058B547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9000B51DEC32190058B547 /* ORBSwitchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORBSwitchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9000B91DEC32190058B547 /* ORBSwitchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORBSwitchDemoUITests.m; sourceTree = "<group>"; };
+		FF9000BB1DEC32190058B547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9000C51DEC328A0058B547 /* ORBSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBSwitch.h; sourceTree = "<group>"; };
+		FF9000C61DEC328A0058B547 /* ORBSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBSwitch.m; sourceTree = "<group>"; };
+		FFFA1D741DEC779D00CB4A2B /* mario_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario_bg.png; sourceTree = "<group>"; };
+		FFFA1D751DEC779D00CB4A2B /* mario_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario_l.png; sourceTree = "<group>"; };
+		FFFA1D761DEC779D00CB4A2B /* mario_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario_r.png; sourceTree = "<group>"; };
+		FFFA1D771DEC779D00CB4A2B /* sw_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sw_bg.jpg; sourceTree = "<group>"; };
+		FFFA1D781DEC779D00CB4A2B /* sw_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sw_knob.png; sourceTree = "<group>"; };
+		FFFA1D7E1DEC786400CB4A2B /* sw_bg_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sw_bg_on.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9000991DEC32180058B547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9000B21DEC32190058B547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9000931DEC32180058B547 = {
+			isa = PBXGroup;
+			children = (
+				FF9000C41DEC328A0058B547 /* ORBSwitch */,
+				FF90009E1DEC32190058B547 /* ORBSwitchDemo */,
+				FF9000B81DEC32190058B547 /* ORBSwitchDemoUITests */,
+				FF90009D1DEC32190058B547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF90009D1DEC32190058B547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF90009C1DEC32180058B547 /* ORBSwitchDemo.app */,
+				FF9000B51DEC32190058B547 /* ORBSwitchDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF90009E1DEC32190058B547 /* ORBSwitchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA1D651DEC68E400CB4A2B /* Resources */,
+				FF9000A21DEC32190058B547 /* AppDelegate.h */,
+				FF9000A31DEC32190058B547 /* AppDelegate.m */,
+				FF9000A51DEC32190058B547 /* ViewController.h */,
+				FF9000A61DEC32190058B547 /* ViewController.m */,
+				FF9000A81DEC32190058B547 /* Main.storyboard */,
+				FF9000AB1DEC32190058B547 /* Assets.xcassets */,
+				FF9000AD1DEC32190058B547 /* LaunchScreen.storyboard */,
+				FF9000B01DEC32190058B547 /* Info.plist */,
+				FF90009F1DEC32190058B547 /* Supporting Files */,
+			);
+			path = ORBSwitchDemo;
+			sourceTree = "<group>";
+		};
+		FF90009F1DEC32190058B547 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9000A01DEC32190058B547 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9000B81DEC32190058B547 /* ORBSwitchDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9000B91DEC32190058B547 /* ORBSwitchDemoUITests.m */,
+				FF9000BB1DEC32190058B547 /* Info.plist */,
+			);
+			path = ORBSwitchDemoUITests;
+			sourceTree = "<group>";
+		};
+		FF9000C41DEC328A0058B547 /* ORBSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				FF9000C51DEC328A0058B547 /* ORBSwitch.h */,
+				FF9000C61DEC328A0058B547 /* ORBSwitch.m */,
+			);
+			name = ORBSwitch;
+			path = ../ORBSwitch;
+			sourceTree = "<group>";
+		};
+		FFFA1D651DEC68E400CB4A2B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA1D741DEC779D00CB4A2B /* mario_bg.png */,
+				FFFA1D751DEC779D00CB4A2B /* mario_l.png */,
+				FFFA1D761DEC779D00CB4A2B /* mario_r.png */,
+				FFFA1D771DEC779D00CB4A2B /* sw_bg.jpg */,
+				FFFA1D7E1DEC786400CB4A2B /* sw_bg_on.jpg */,
+				FFFA1D781DEC779D00CB4A2B /* sw_knob.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF90009B1DEC32180058B547 /* ORBSwitchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9000BE1DEC32190058B547 /* Build configuration list for PBXNativeTarget "ORBSwitchDemo" */;
+			buildPhases = (
+				FF9000981DEC32180058B547 /* Sources */,
+				FF9000991DEC32180058B547 /* Frameworks */,
+				FF90009A1DEC32180058B547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORBSwitchDemo;
+			productName = ORBSwitchDemo;
+			productReference = FF90009C1DEC32180058B547 /* ORBSwitchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF9000B41DEC32190058B547 /* ORBSwitchDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9000C11DEC32190058B547 /* Build configuration list for PBXNativeTarget "ORBSwitchDemoUITests" */;
+			buildPhases = (
+				FF9000B11DEC32190058B547 /* Sources */,
+				FF9000B21DEC32190058B547 /* Frameworks */,
+				FF9000B31DEC32190058B547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9000B71DEC32190058B547 /* PBXTargetDependency */,
+			);
+			name = ORBSwitchDemoUITests;
+			productName = ORBSwitchDemoUITests;
+			productReference = FF9000B51DEC32190058B547 /* ORBSwitchDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9000941DEC32180058B547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "0xNSHuman (hello@vladaverin.me)";
+				TargetAttributes = {
+					FF90009B1DEC32180058B547 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T55G7JLVK5;
+						ProvisioningStyle = Automatic;
+					};
+					FF9000B41DEC32190058B547 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D8WN4R794H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF90009B1DEC32180058B547;
+					};
+				};
+			};
+			buildConfigurationList = FF9000971DEC32180058B547 /* Build configuration list for PBXProject "ORBSwitchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF9000931DEC32180058B547;
+			productRefGroup = FF90009D1DEC32190058B547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF90009B1DEC32180058B547 /* ORBSwitchDemo */,
+				FF9000B41DEC32190058B547 /* ORBSwitchDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF90009A1DEC32180058B547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9000AF1DEC32190058B547 /* LaunchScreen.storyboard in Resources */,
+				FFFA1D7D1DEC779D00CB4A2B /* sw_knob.png in Resources */,
+				FFFA1D7F1DEC786400CB4A2B /* sw_bg_on.jpg in Resources */,
+				FFFA1D7B1DEC779D00CB4A2B /* mario_r.png in Resources */,
+				FFFA1D7A1DEC779D00CB4A2B /* mario_l.png in Resources */,
+				FFFA1D7C1DEC779D00CB4A2B /* sw_bg.jpg in Resources */,
+				FF9000AC1DEC32190058B547 /* Assets.xcassets in Resources */,
+				FF9000AA1DEC32190058B547 /* Main.storyboard in Resources */,
+				FFFA1D791DEC779D00CB4A2B /* mario_bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9000B31DEC32190058B547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9000981DEC32180058B547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9000A71DEC32190058B547 /* ViewController.m in Sources */,
+				FF9000A41DEC32190058B547 /* AppDelegate.m in Sources */,
+				FF9000C71DEC328A0058B547 /* ORBSwitch.m in Sources */,
+				FF9000A11DEC32190058B547 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9000B11DEC32190058B547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9000BA1DEC32190058B547 /* ORBSwitchDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF9000B71DEC32190058B547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF90009B1DEC32180058B547 /* ORBSwitchDemo */;
+			targetProxy = FF9000B61DEC32190058B547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF9000A81DEC32190058B547 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9000A91DEC32190058B547 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF9000AD1DEC32190058B547 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9000AE1DEC32190058B547 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9000BC1DEC32190058B547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF9000BD1DEC32190058B547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9000BF1DEC32190058B547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T55G7JLVK5;
+				INFOPLIST_FILE = ORBSwitchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.ORBSwitchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF9000C01DEC32190058B547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T55G7JLVK5;
+				INFOPLIST_FILE = ORBSwitchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.ORBSwitchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF9000C21DEC32190058B547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = D8WN4R794H;
+				INFOPLIST_FILE = ORBSwitchDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.ORBSwitchDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ORBSwitchDemo;
+			};
+			name = Debug;
+		};
+		FF9000C31DEC32190058B547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = D8WN4R794H;
+				INFOPLIST_FILE = ORBSwitchDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.ORBSwitchDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ORBSwitchDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9000971DEC32180058B547 /* Build configuration list for PBXProject "ORBSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9000BC1DEC32190058B547 /* Debug */,
+				FF9000BD1DEC32190058B547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9000BE1DEC32190058B547 /* Build configuration list for PBXNativeTarget "ORBSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9000BF1DEC32190058B547 /* Debug */,
+				FF9000C01DEC32190058B547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9000C11DEC32190058B547 /* Build configuration list for PBXNativeTarget "ORBSwitchDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9000C21DEC32190058B547 /* Debug */,
+				FF9000C31DEC32190058B547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF9000941DEC32180058B547 /* Project object */;
+}
